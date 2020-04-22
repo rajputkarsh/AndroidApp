@@ -120,9 +120,18 @@
 }
 
 #tile-holder{
-  margin-left: 3%;  
+  /*margin-left: 3%;  */
   background-color: #f7f4f4; 
   height: 100px; 
+  position: relative; 
+  text-align: center;
+  box-shadow: 5px 8px 5px #888888;
+}
+
+#tile-holder-why{
+  margin-left: 3%;  
+  background-color: #f7f4f4; 
+  height: 180px; 
   position: relative; 
   text-align: center;
   box-shadow: 5px 8px 5px #888888;
@@ -135,5 +144,18 @@
   transform: translate(-50%, -50%); 
   background-color: white; 
   border-radius: 5px;
+  font-weight: bold;
 }
 
+#tile-data-why{
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  border-radius: 5px;
+}
+
+#gallery-btn{
+  margin-left: 3%;
+  height: 80px;
+}
